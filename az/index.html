@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>صفحة هبوط</title>
+    <link href='https://fonts.googleapis.com/css?family=Cairo' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <style type="text/css">
+        body {
+            direction: rtl;
+        }
+        input[type="submit"] {
+            font-family: 'Cairo';
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>شوبما</h1>
+        <ul>
+            <li><a href="#home" style="color: #fd4c24;">الرئيسية</a></li>
+            <li><a href="#features">المميزات</a></li>
+            <li><a href="#about">حول المنتج</a></li>
+            <li><a href="#reviews">التعليقات</a></li>
+            <li><a href="#contact">الطلب</a></li>
+        </ul>
+        <a href="../en/index.html" style="color: #FFF; background-color: #264d7e; padding: 5px 10px;">EN</a>
+    </header>
+    <section id="home">
+        <div>
+            <h2>مكنسة كهربائية 2 في 1</h2>
+            <p>مكنسة كهربائية يدوية محمولة قابلة للشحن مع فلتر قابل للغسل بقبضة مسدس مكنسة السيارة</p>
+            <h3 class="price">بـ 250 درهم فقط!</h3>
+            <br>
+            <a href="#contact">اطلب الآن</a>
+        </div>
+        <img src="../images/vacuum_cleaner_1.png" alt="vacuum cleaner" />
+    </section>
+    <section id="features">
+        <h2 class="uppercase">المميزات</h2>
+        <br>
+        <div class="flexy">
+            <div class="center">
+                <img class="icon" src="../images/medal.png"/>
+                <p>جودة عالية</p>
+            </div>
+            <div class="center">
+                <img class="icon" src="../images/money.png"/>
+                <p>الدفع عند الاستلام</p>
+            </div>
+            <div class="center">
+                <img class="icon" src="../images/delivery-truck.png"/>
+                <p>التوصيل مجاني</p>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2 class="uppercase">حول المنتج</h2>
+        <div class="flexy">
+            <img width='300px' src="../images/vacuum_cleaner_2.png" />
+            <table>
+                <tr>
+                    <td><b>المادة</b></td>
+                    <td>ABS</td>
+                </tr>
+                <tr>
+                    <td><b>البلد المصنع</b></td>
+                    <td>الصين</td>
+                </tr>
+                <tr>
+                    <td><b>القياسات</b></td>
+                    <td>140x165 مم</td>
+                </tr>
+                <tr>
+                    <td><b>الكتلة</b></td>
+                    <td>300 غرام</td>
+                </tr>
+                <tr>
+                    <td><b>القوة</b></td>
+                    <td>120 وات</td>
+                </tr>
+                <tr>
+                    <td><b>الجهد</b></td>
+                    <td>12 فولت</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="flexy">
+            <img class="album" src="../images/vacuum_cleaner_4.jpg" />
+            <img class="album" src="../images/vacuum_cleaner_5.jpg" />
+            <img class="album" src="../images/vacuum_cleaner_6.jpg" />
+        </div>
+    </section>
+    <section id="reviews">
+        <h2 class="uppercase">التعليقات</h2>
+        <br>
+        <div class="flexy">
+            <div class="review">
+                <h3>محمد أ. 
+                    <script type="text/javascript">
+                        for (let i = 0; i < 4; i++) {
+                            document.write('<i class="fa fa-star" aria-hidden="true"></i>')
+                        }
+                    </script>
+                </h3>
+                <p>لقد أحببت هذا المنتج، كان مفيدا لسيارتي.</p>
+            </div>
+            <div class="review">
+                <h3>فاطمة ر. 
+                    <script type="text/javascript">
+                        for (let i = 0; i < 4; i++) {
+                            document.write('<i class="fa fa-star" aria-hidden="true"></i>')
+                        }
+                    </script>
+                </h3>
+                <p>منتج رائع، كما توقعت تماما.</p>
+            </div>
+            <div class="review">
+                <h3>نايف ل. 
+                    <script type="text/javascript">
+                        for (let i = 0; i < 3; i++) {
+                            document.write('<i class="fa fa-star" aria-hidden="true"></i>')
+                        }
+                    </script>
+                </h3>
+                <p>اشتريته من أجل تجريبه، لكنه أعجبني.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2 class="uppercase">الطلب</h2>
+        <br>
+        <div class="flexy">
+        <form class="my_form" method="POST" action="#">
+            <div>
+                <p>الإسم الكامل</p>
+                <input type="text" name="full_name" required>
+            </div>
+            <div>
+                <p>العنوان</p>
+                <input type="text" name="adress" required>
+            </div>
+            <div>
+                <p>رقم الهاتف</p>
+                <input type="text" name="phone_number" required>
+            </div>
+            <br>
+            <div class="submit">
+                <input type="submit" value="اطلب">
+            </div>
+        </form>
+    </div>
+    </section>
+</body>
+</html>
