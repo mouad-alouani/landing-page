@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Redirect</title>
+</head>
+
+<body>
+    <script>
+        // Function to get the user's preferred language from the navigator
+        function getUserLanguage() {
+            return navigator.language || navigator.userLanguage;
+        }
+
+        // Function to redirect to the appropriate page based on language
+        function redirectToLanguagePage() {
+            var userLanguage = getUserLanguage().toLowerCase();
+
+            // Check if the language is Arabic
+            if (userLanguage.includes('ar')) {
+                window.location.href = 'ar/index.html';
+            } else {
+                // Default to English or any other language
+                window.location.href = 'en/index.html';
+            }
+        }
+
+        // Call the function on page load
+        redirectToLanguagePage();
+    </script>
+</body>
+
+</html>

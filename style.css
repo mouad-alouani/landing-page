@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	font-family: 'Cairo';
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.flexy {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.icon {
+	width: 50px;
+	height: 50px;
+}
+.center {
+	text-align: center;
+}
+.album {
+	width: 250px;
+	margin: 10px;
+}
+.price {
+	color: #058461;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #ffede3;
+}
+header ul {
+	display: flex;
+}
+header li {
+	margin: 15px;
+	list-style: none;
+}
+section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+section h2 {
+	text-align: center;
+}
+section#home {
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+    background-color: #ffede3;
+    padding: 100px 30px;
+}
+section#home img {
+	width: 300px;
+}
+section#home h2 {
+	font-size: 35px;
+	text-align: initial;
+}
+section#home p {
+	font-size: 20px;
+    width: 450px;
+}
+section#home a {
+	background-color: #fd4c24;
+	padding: 10px 20px;
+	color: #FFFFFF;
+}
+section#about {
+	background-color: #eee;
+}
+td {
+	border: 1px solid #ddd;
+	background-color: #fff;
+    width: 100px;
+    padding: 5px;
+}
+tr:nth-child(even) {
+	background-color: #ddd;
+}
+.review {
+    border: 1px solid #aaa;
+    padding: 5px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #eee;
+    margin: 10px;
+}
+.review i {
+	color: #ffd250;
+}
+section#contact {
+	background-color: #ddd;
+}
+.my_form {
+	background-color: #fff;
+	width: 350px;
+	padding: 25px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+input[type="text"] {
+    width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	outline: none;
+}
+input[type="text"]:focus {
+    border: 2px solid #fd4c24;
+}
+.submit {
+	text-align: center;
+}
+input[type="submit"] {
+    background-color: #fd4c24;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border: none;
+}
